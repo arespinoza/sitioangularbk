@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
-//const URI = 'mongodb://localhost/proyectodb';
-const URI = 'mongodb+srv://jperez:test123@cluster0.kpjec80.mongodb.net/?retryWrites=true&w=majority';
-
+const URI = 'mongodb://localhost/proyectodb';
 
 
 mongoose.connect(URI)
